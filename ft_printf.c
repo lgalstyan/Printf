@@ -37,7 +37,7 @@ static int	ft_check(char c, va_list *ap)
 	{
 		i += ft_putstr("0x");
 		i += ft_puthex(va_arg(*ap, unsigned int), 'p');
-}
+	}
 	else if(c == 'd')
 		i += ft_putnbr (va_arg(*ap, int));
 	else if(c == 'i')
@@ -52,7 +52,6 @@ static int	ft_check(char c, va_list *ap)
 		i += ft_putchar('%');
 	return (i);
 }
-#include <stdio.h>
 int	ft_printf(const char *str, ...)
 {
 	int	i;
