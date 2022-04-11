@@ -9,6 +9,7 @@
 /*   Updated: 2022/04/10 16:46:28 by lgalstya         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
+//have any mistakes
 #include "ft_printf.h"
 
 int	ft_putunsig(unsigned long n)
