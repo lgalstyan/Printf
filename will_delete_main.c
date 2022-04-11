@@ -1,6 +1,5 @@
 #include "ft_printf.h"
-#
-#include <limits.h>
+#include <stdio.h>
 int main()
 {
 //int i = 1213;
@@ -22,7 +21,5 @@ int main()
 int a = 10, c = 10;
 int *b = &a, *d = &c;
 printf("%p\n",b);
-//ft_printf("%p \n", 123);
-//printf("%p", 123);
 ft_printf("%p", d);
 }
