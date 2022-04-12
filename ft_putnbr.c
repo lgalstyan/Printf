@@ -6,7 +6,7 @@
 /*   By: lgalstya <marvin@42.fr>                    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/04/10 15:07:40 by lgalstya          #+#    #+#             */
-/*   Updated: 2022/04/10 17:12:56 by lgalstya         ###   ########.fr       */
+/*   Updated: 2022/04/12 13:59:58 by lgalstya         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 #include "ft_printf.h"
@@ -14,7 +14,7 @@
 int	ft_putnbr(int n)
 {
 	long	i;
-	int len;
+	int		len;
 
 	len = 0;
 	i = n;
@@ -31,10 +31,4 @@ int	ft_putnbr(int n)
 	else
 		len += ft_putchar (i + '0');
 	return (len);
-}/*
-#include <stdio.h>
-int main()
-{
-	ft_putnbr(1351);
-//printf("ft")
-}*/
+}
