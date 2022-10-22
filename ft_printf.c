@@ -6,7 +6,7 @@
 /*   By: lgalstya <marvin@42.fr>                    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/04/09 16:20:06 by lgalstya          #+#    #+#             */
-/*   Updated: 2022/04/12 16:43:59 by lgalstya         ###   ########.fr       */
+/*   Updated: 2022/04/19 15:30:54 by lgalstya         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 #include "ft_printf.h"
@@ -75,6 +75,6 @@ int	ft_printf(const char *str, ...)
 		}
 		i++;
 	}
-	va_end(ap, str);
+	va_end(ap);
 	return (len);
 }
